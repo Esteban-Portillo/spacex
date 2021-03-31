@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items:center;
+    position: fixed;
+    font-size: 10px;
+    font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+    color: white;
+    font-weight:bolder;
+    top: 10px;
+    justify-content: space-between;
+    
+
+    
+}
+.logo{
+    width: 20vw;
+    position: relative;
+    left: 50px;
+    filter: invert(100%);
+    
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+
+
+}
+.menu-shop{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    
+    
+}
+.shop{
+    margin: 10px;
+    margin-right: 30px;
+}
+.menu{
+    filter: invert(100%);
+    order: -1;
+    margin: 10px;
+
+}
+.hero{
+    width:100%;
+    height: 100vh;
+    
+  
+    background-image:url("/images/asset 0.jpg");
+
+    background-repeat:no-repeat ;
+    background-size:100% ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+   
+    
+}
+.First-title{
+    color: white;
+    font-family: D-DIN-Medium, Arial, Verdana, sans-serif;
+    font-size: 20px;
+    
+
+    
+}
+.replay{
+    margin: 50px;
+    margin-bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    font-weight: bolder;
+    
+
+}
+.second-title{
+    font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+    color: white;
+    font-size: 40px;
+    padding-bottom:60px ;
+}
+.replay-buttom{
+    background-color: transparent;
+    border: 5px white solid;
+    height:60px;
+    width: 200px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+.replay-buttom:hover{
+ background-color: white;
+ color: black;   
+}
